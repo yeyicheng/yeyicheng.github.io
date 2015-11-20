@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rails | Yicheng Ye]]></title>
+  <link href="http://yeyicheng.github.io/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://yeyicheng.github.io/"/>
+  <updated>2015-11-20T06:36:30-08:00</updated>
+  <id>http://yeyicheng.github.io/</id>
+  <author>
+    <name><![CDATA[Yicheng Ye]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rails Precompile]]></title>
+    <link href="http://yeyicheng.github.io/blog/2015/11/20/rails-precompile/"/>
+    <updated>2015-11-20T06:34:37-08:00</updated>
+    <id>http://yeyicheng.github.io/blog/2015/11/20/rails-precompile</id>
+    <content type="html"><![CDATA[<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">RAILS_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>rake assets:precompile
+</span></code></pre></td></tr></table></div></figure></p>
+]]></content>
+  </entry>
+  
+</feed>

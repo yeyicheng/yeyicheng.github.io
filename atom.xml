@@ -4,7 +4,7 @@
   <title><![CDATA[Yicheng Ye]]></title>
   <link href="http://yeyicheng.github.io/atom.xml" rel="self"/>
   <link href="http://yeyicheng.github.io/"/>
-  <updated>2015-11-20T06:17:12-08:00</updated>
+  <updated>2015-11-20T06:36:30-08:00</updated>
   <id>http://yeyicheng.github.io/</id>
   <author>
     <name><![CDATA[Yicheng Ye]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rails Precompile]]></title>
+    <link href="http://yeyicheng.github.io/blog/2015/11/20/rails-precompile/"/>
+    <updated>2015-11-20T06:34:37-08:00</updated>
+    <id>http://yeyicheng.github.io/blog/2015/11/20/rails-precompile</id>
+    <content type="html"><![CDATA[<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">RAILS_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>rake assets:precompile
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blog With Octopress]]></title>
@@ -40,7 +52,8 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p> should print out Ruby 1.9.3</p>
+<p>
+This should print out Ruby 1.9.3</p>
 
 <h3>Install dependencies</h3>
 
