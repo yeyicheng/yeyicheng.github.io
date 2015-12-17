@@ -9,8 +9,8 @@
   <meta name="author" content="Yicheng Ye">
 
   
-  <meta name="description" content="1
-RAILS_ENV=production bundle exec rake assets:precompile ">
+  <meta name="description" content="Right click task bar and click Task Manager Choose File -> Run new task Run powershell with administrative privileges Run 1
+Get-AppXPackage -AllUsers &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +66,50 @@ RAILS_ENV=production bundle exec rake assets:precompile ">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/17/win10-start-menu-not-show-up/">Win10 Start Menu Not Show Up</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-12-17T04:40:57-08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>4:40 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>Right click task bar and click Task Manager</h2>
+
+<h2>Choose File -> Run new task</h2>
+
+<h2>Run powershell with administrative privileges</h2>
+
+<h2>Run</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>Get-AppXPackage -AllUsers <span class="p">|</span> Foreach <span class="o">{</span>Add-AppxPackage -DisableDevelopmentMode -Register <span class="s2">&quot;$($_.InstallLocation)\AppXManifest.xml&quot;</span><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<h2>Wait until all the fixes end</h2>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -267,6 +311,10 @@ This should print out Ruby 1.9.3</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/12/17/win10-start-menu-not-show-up/">Win10 Start Menu Not Show Up</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/11/20/rails-precompile/">Rails Precompile</a>
