@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Win10 Start Menu Not Show Up"
+date: 2015-12-17 04:40:57 -0800
+comments: true
+categories: Windows 10
+---
+## Right click task bar and click Task Manager
+## Choose File -> Run new task
+## Run powershell with administrative privileges
+## Run 
+{% codeblock lang:bash %}
+Get-AppXPackage -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"} 
+{% endcodeblock %} 
+## Wait until all the fixes end
+
