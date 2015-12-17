@@ -9,8 +9,7 @@
   <meta name="author" content="Yicheng Ye">
 
   
-  <meta name="description" content="Right click task bar and click Task Manager Choose File -> Run new task Run powershell with administrative privileges Run 1
-Get-AppXPackage -AllUsers &hellip;">
+  <meta name="description" content="Step 1 Right click task bar and click Task Manager Step 2 Choose File -> Run new task Step 3 Run powershell with administrative privileges Step 4 Run &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -85,13 +84,13 @@ Get-AppXPackage -AllUsers &hellip;">
   </header>
 
 
-<div class="entry-content"><h2>Right click task bar and click Task Manager</h2>
+<div class="entry-content"><h3>Step 1 Right click task bar and click Task Manager</h3>
 
-<h2>Choose File -> Run new task</h2>
+<h3>Step 2 Choose File -> Run new task</h3>
 
-<h2>Run powershell with administrative privileges</h2>
+<h3>Step 3 Run powershell with administrative privileges</h3>
 
-<h2>Run</h2>
+<h3>Step 4 Run</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>Get-AppXPackage -AllUsers <span class="p">|</span> Foreach <span class="o">{</span>Add-AppxPackage -DisableDevelopmentMode -Register <span class="s2">&quot;$($_.InstallLocation)\AppXManifest.xml&quot;</span><span class="o">}</span>
@@ -100,7 +99,7 @@ Get-AppXPackage -AllUsers &hellip;">
 
 <p></p>
 
-<h2>Wait until all the fixes end</h2>
+<h3>Step 5 Wait until all the fixes end</h3>
 </div>
 
 
